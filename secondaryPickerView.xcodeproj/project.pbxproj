@@ -15,6 +15,12 @@
 		615A766B1D53A95500553591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615A76691D53A95500553591 /* LaunchScreen.storyboard */; };
 		615A76761D53A95600553591 /* secondaryPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615A76751D53A95600553591 /* secondaryPickerViewTests.m */; };
 		615A76811D53A95600553591 /* secondaryPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615A76801D53A95600553591 /* secondaryPickerViewUITests.m */; };
+		615A76901D53AE2000553591 /* provinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 615A768F1D53AE2000553591 /* provinceModel.m */; };
+		615A76931D53AE8000553591 /* cityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 615A76921D53AE8000553591 /* cityModel.m */; };
+		615A76961D53B02700553591 /* areaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 615A76951D53B02700553591 /* areaModel.m */; };
+		615A76991D542A4B00553591 /* AreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 615A76981D542A4B00553591 /* AreaPickerView.m */; };
+		615A769B1D542A5500553591 /* AreaPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 615A769A1D542A5500553591 /* AreaPickerView.xib */; };
+		88A0C9146636FC4039E57BAE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE992F9997CCA8211440908 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		615A767C1D53A95600553591 /* secondaryPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = secondaryPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		615A76801D53A95600553591 /* secondaryPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondaryPickerViewUITests.m; sourceTree = "<group>"; };
 		615A76821D53A95600553591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615A768E1D53AE2000553591 /* provinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = provinceModel.h; sourceTree = "<group>"; };
+		615A768F1D53AE2000553591 /* provinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = provinceModel.m; sourceTree = "<group>"; };
+		615A76911D53AE8000553591 /* cityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cityModel.h; sourceTree = "<group>"; };
+		615A76921D53AE8000553591 /* cityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cityModel.m; sourceTree = "<group>"; };
+		615A76941D53B02700553591 /* areaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = areaModel.h; sourceTree = "<group>"; };
+		615A76951D53B02700553591 /* areaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = areaModel.m; sourceTree = "<group>"; };
+		615A76971D542A4B00553591 /* AreaPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaPickerView.h; sourceTree = "<group>"; };
+		615A76981D542A4B00553591 /* AreaPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaPickerView.m; sourceTree = "<group>"; };
+		615A769A1D542A5500553591 /* AreaPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AreaPickerView.xib; sourceTree = "<group>"; };
+		7AE992F9997CCA8211440908 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3D26A88EDECE037CFC35AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E988709DFA68668AA7537796 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A0C9146636FC4039E57BAE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D775AEFBCF7AA9EEC12ED50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD3D26A88EDECE037CFC35AF /* Pods.debug.xcconfig */,
+				E988709DFA68668AA7537796 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		615A764F1D53A95500553591 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				615A76741D53A95600553591 /* secondaryPickerViewTests */,
 				615A767F1D53A95600553591 /* secondaryPickerViewUITests */,
 				615A76591D53A95500553591 /* Products */,
+				0D775AEFBCF7AA9EEC12ED50 /* Pods */,
+				AAE27327687E966D7706E34A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +135,16 @@
 				615A765F1D53A95500553591 /* AppDelegate.m */,
 				615A76611D53A95500553591 /* ViewController.h */,
 				615A76621D53A95500553591 /* ViewController.m */,
+				615A768E1D53AE2000553591 /* provinceModel.h */,
+				615A768F1D53AE2000553591 /* provinceModel.m */,
+				615A76911D53AE8000553591 /* cityModel.h */,
+				615A76921D53AE8000553591 /* cityModel.m */,
+				615A76941D53B02700553591 /* areaModel.h */,
+				615A76951D53B02700553591 /* areaModel.m */,
 				615A76641D53A95500553591 /* Main.storyboard */,
+				615A76971D542A4B00553591 /* AreaPickerView.h */,
+				615A76981D542A4B00553591 /* AreaPickerView.m */,
+				615A769A1D542A5500553591 /* AreaPickerView.xib */,
 				615A76671D53A95500553591 /* Assets.xcassets */,
 				615A76691D53A95500553591 /* LaunchScreen.storyboard */,
 				615A766C1D53A95500553591 /* Info.plist */,
@@ -140,6 +179,14 @@
 			path = secondaryPickerViewUITests;
 			sourceTree = "<group>";
 		};
+		AAE27327687E966D7706E34A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AE992F9997CCA8211440908 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 615A76851D53A95600553591 /* Build configuration list for PBXNativeTarget "secondaryPickerView" */;
 			buildPhases = (
+				8B1528DBD6E8FFF1BDE0D608 /* Check Pods Manifest.lock */,
 				615A76541D53A95500553591 /* Sources */,
 				615A76551D53A95500553591 /* Frameworks */,
 				615A76561D53A95500553591 /* Resources */,
+				BEC3D0862332E3F4C70B10CD /* Embed Pods Frameworks */,
+				F0E32C2DDA152C7488C6D9ED /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				615A766B1D53A95500553591 /* LaunchScreen.storyboard in Resources */,
+				615A769B1D542A5500553591 /* AreaPickerView.xib in Resources */,
 				615A76681D53A95500553591 /* Assets.xcassets in Resources */,
 				615A76661D53A95500553591 /* Main.storyboard in Resources */,
 			);
@@ -265,14 +316,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B1528DBD6E8FFF1BDE0D608 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC3D0862332E3F4C70B10CD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E32C2DDA152C7488C6D9ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		615A76541D53A95500553591 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				615A76631D53A95500553591 /* ViewController.m in Sources */,
+				615A76901D53AE2000553591 /* provinceModel.m in Sources */,
+				615A76991D542A4B00553591 /* AreaPickerView.m in Sources */,
+				615A76961D53B02700553591 /* areaModel.m in Sources */,
 				615A76601D53A95500553591 /* AppDelegate.m in Sources */,
 				615A765D1D53A95500553591 /* main.m in Sources */,
+				615A76931D53AE8000553591 /* cityModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +516,7 @@
 		};
 		615A76861D53A95600553591 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3D26A88EDECE037CFC35AF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = secondaryPickerView/Info.plist;
@@ -424,6 +528,7 @@
 		};
 		615A76871D53A95600553591 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E988709DFA68668AA7537796 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = secondaryPickerView/Info.plist;
@@ -498,6 +603,7 @@
 				615A76871D53A95600553591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		615A76881D53A95600553591 /* Build configuration list for PBXNativeTarget "secondaryPickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +612,7 @@
 				615A768A1D53A95600553591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		615A768B1D53A95600553591 /* Build configuration list for PBXNativeTarget "secondaryPickerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +621,7 @@
 				615A768D1D53A95600553591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
